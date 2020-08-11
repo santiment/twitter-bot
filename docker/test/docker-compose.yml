@@ -1,0 +1,8 @@
+version: "3"
+services:
+  twitter-bot:
+    build:
+      context: ../../
+      dockerfile: docker/test/Dockerfile
+    environment:
+      NODE_ENV: test
