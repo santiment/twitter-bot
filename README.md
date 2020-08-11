@@ -1,5 +1,5 @@
 # twitter-bot
-Nodejs webhook for santiment alerts that reposts to twitter.
+Nodejs service that works as webhook for santiment alerts and reposts to twitter.
 
 ## Setup
 
