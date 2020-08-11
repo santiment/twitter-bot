@@ -17,4 +17,6 @@ WORKDIR /app
 COPY --from=builder /app/node_modules /app/node_modules
 COPY . /app
 
-CMD node cli.js
+EXPOSE 3000
+
+CMD npm start
